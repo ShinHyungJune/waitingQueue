@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>웨이팅큐</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="../css/default.css?v=2">
+    <link rel="stylesheet" href="../css/aos-2.3.1.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/aos-2.3.1.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+
+<div id="app">
+    <div class="container-wrap">
+        <div class="container">
+            <img src="../img/logo.png" alt="" class="logo">
+
+            <div class="box-barcode">
+                <p class="body">QR코드를 스캔하여 대기등록</p>
+
+                <div class="barcode-wrap">
+                    <img src="../img/barcode.png" alt="">
+                </div>
+
+                <h3 class="title">춘천명물닭갈비</h3>
+            </div>
+
+            <div class="footer">
+                <p class="body">고객과 마음을 잇다, 웨이팅큐</p>
+                <a href="https://waiting-q.com" class="link">wating-q.com</a>
+            </div>
+
+            <div class="btns">
+                <button class="btn">
+                    <i class="xi-print"></i>
+                    인쇄하기
+                </button>
+                <button class="btn">
+                    <i class="xi-log-out"></i>
+                    닫기
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".btn").click(function(){
+        window.print();
+    });
+</script>
+</body>
+</html>
