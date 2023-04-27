@@ -12,7 +12,7 @@ html {
     background-color:#fff;
 }
 .logo {
-    width:180px; margin-top:-60px;
+    width:150px; margin-top:-60px;
 }
 
 .box-barcode {
@@ -23,7 +23,7 @@ html {
     font-size:24px; color:#2b68b1; font-weight:400;
 }
 .box-barcode .barcode-wrap {
-    width:250px;
+    width:220px;
     margin:0 auto; margin-bottom:30px;
     border:10px solid #00a2e1;
 }
@@ -80,6 +80,12 @@ html {
     width:768px; margin:0 auto; margin-top:-60px;
 }
 
+@media screen and (max-height:1000px) {
+    .container {
+        margin-top:60px;
+        padding-bottom:60px;
+    }
+}
 @media screen and (max-width:768px) {
     .container-wrap {
         width:100%;
